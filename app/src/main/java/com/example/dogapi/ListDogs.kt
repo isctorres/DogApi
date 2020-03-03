@@ -24,6 +24,7 @@ class ListDogs : AppCompatActivity() {
 
         val intFinder = this.intent
         var raza = intFinder.getStringExtra("RAZA").toLowerCase()
+        txtHeader.text = "Raza del Perro: "+raza
         RequestVolley("https://dog.ceo/api/breed/"+raza+"/images")
     }
 
