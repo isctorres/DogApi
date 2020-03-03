@@ -3,8 +3,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingHorizontal="10dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <io.armcha.elasticview.ElasticView
         android:id="@+id/imageElasticView"
@@ -13,13 +15,14 @@
         app:cardCornerRadius="10dp"
         app:cardElevation="5dp">
 
-        <ChildView>
+
             <ImageView
                 android:id="@+id/imvDog"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:scaleType="fitXY"
                 />
-        </ChildView>
+
     </io.armcha.elasticview.ElasticView>
 
 </LinearLayout>

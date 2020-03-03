@@ -21,9 +21,9 @@
 
     <EditText
         android:id="@+id/edtRaza"
-        android:layout_width="213dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="40dp"
+        android:layout_width="191dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="52dp"
         android:ems="10"
         android:hint="@string/hintRaza"
@@ -36,13 +36,13 @@
 
     <Button
         android:id="@+id/btnBuscar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="104dp"
+        android:layout_height="55dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="52dp"
         android:text="@string/btnBuscar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/edtRaza"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
